@@ -1,13 +1,13 @@
-package arrayandstring;
+/*Implement a method to perform basic string compression using the counts
+of repeated characters. For example, the string aabcccccaaa would become a2blc5a3, If the
+"compressed" string would not become smaller than the original string, your method should return
+the original string. You can assume the string has only uppercase and lowercase letters (a - z).*/
 
-public class StringCompression {
+package main.arrayandstring;
 
-        public static void main(String[] args) {
-            String compressedString = compressString("aabcccccaaa");
-            System.out.println("Compressed String:"+compressedString);
-        }
+public class StringCompressor {
 
-        private static String compressString(String str)
+        public static String compressString(String str)
         {
             StringBuilder comprStr = new StringBuilder();
             int charCount = 1;
