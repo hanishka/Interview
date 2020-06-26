@@ -18,8 +18,7 @@ public class StringCompressor {
                     charCount = charCount + 1;
                 }
                 else{
-                    comprStr.append(str.charAt(i));
-                    comprStr.append(charCount);
+                    comprStr.append(str.charAt(i)).append(charCount);
                     charCount = 1;
                 }
 
