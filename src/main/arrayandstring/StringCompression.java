@@ -5,9 +5,9 @@ the original string. You can assume the string has only uppercase and lowercase 
 
 package main.arrayandstring;
 
-public class StringCompressor {
+public class StringCompression {
 
-        public static String compressString(String str)
+    public static String compressString(String str)
         {
             StringBuilder comprStr = new StringBuilder();
             int charCount = 1;
@@ -28,6 +28,5 @@ public class StringCompressor {
             }
             return comprStr.toString();
         }
-
 
 }
